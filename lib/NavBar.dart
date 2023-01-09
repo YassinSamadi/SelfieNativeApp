@@ -8,8 +8,8 @@ class NavBar extends StatelessWidget {
         padding: EdgeInsets.zero,
         children: [
           UserAccountsDrawerHeader(
-            accountName: Text('Yassin Samadi'), 
-            accountEmail: Text('yassin.samadi@student.kdg.be'),
+            accountName: Text('Yassin Samadi', style:TextStyle(color: Colors.white) ,), 
+            accountEmail: Text('yassin.samadi@student.kdg.be', style:TextStyle(color: Colors.white) ,),
             currentAccountPicture: CircleAvatar(
               child: ClipOval(child: Image.asset(
                 "assets/images/Avatar.png",
